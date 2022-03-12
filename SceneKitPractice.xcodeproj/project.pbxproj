@@ -10,9 +10,16 @@
 		E4E16CAB27DCD6D0002DE1ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16CAA27DCD6D0002DE1ED /* AppDelegate.swift */; };
 		E4E16CAD27DCD6D0002DE1ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16CAC27DCD6D0002DE1ED /* SceneDelegate.swift */; };
 		E4E16CAF27DCD6D0002DE1ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16CAE27DCD6D0002DE1ED /* ViewController.swift */; };
-		E4E16CB227DCD6D0002DE1ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CB027DCD6D0002DE1ED /* Main.storyboard */; };
 		E4E16CB427DCD6D1002DE1ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CB327DCD6D1002DE1ED /* Assets.xcassets */; };
 		E4E16CB727DCD6D1002DE1ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CB527DCD6D1002DE1ED /* LaunchScreen.storyboard */; };
+		E4E16CC127DCD789002DE1ED /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4E16CC027DCD789002DE1ED /* SnapKit */; };
+		E4E16CD127DCE3F4002DE1ED /* Squid_Games_Leader_mask.obj in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CCF27DCE3F3002DE1ED /* Squid_Games_Leader_mask.obj */; };
+		E4E16CD227DCE3F4002DE1ED /* Squid_Games_Leader_mask.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CD027DCE3F4002DE1ED /* Squid_Games_Leader_mask.mtl */; };
+		E4E16CDB27DCEC06002DE1ED /* converse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CD627DCEC06002DE1ED /* converse.jpg */; };
+		E4E16CDC27DCEC06002DE1ED /* converse_bump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CD727DCEC06002DE1ED /* converse_bump.jpg */; };
+		E4E16CDD27DCEC06002DE1ED /* converse_obj.mtl in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CD827DCEC06002DE1ED /* converse_obj.mtl */; };
+		E4E16CDE27DCEC06002DE1ED /* converse_obj.obj in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CD927DCEC06002DE1ED /* converse_obj.obj */; };
+		E4E16CDF27DCEC06002DE1ED /* laces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4E16CDA27DCEC06002DE1ED /* laces.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,16 @@
 		E4E16CAA27DCD6D0002DE1ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E16CAC27DCD6D0002DE1ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E4E16CAE27DCD6D0002DE1ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4E16CB127DCD6D0002DE1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E16CB327DCD6D1002DE1ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E16CB627DCD6D1002DE1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E16CB827DCD6D1002DE1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E16CCF27DCE3F3002DE1ED /* Squid_Games_Leader_mask.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Squid_Games_Leader_mask.obj; sourceTree = "<group>"; };
+		E4E16CD027DCE3F4002DE1ED /* Squid_Games_Leader_mask.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Squid_Games_Leader_mask.mtl; sourceTree = "<group>"; };
+		E4E16CD627DCEC06002DE1ED /* converse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = converse.jpg; sourceTree = "<group>"; };
+		E4E16CD727DCEC06002DE1ED /* converse_bump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = converse_bump.jpg; sourceTree = "<group>"; };
+		E4E16CD827DCEC06002DE1ED /* converse_obj.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = converse_obj.mtl; sourceTree = "<group>"; };
+		E4E16CD927DCEC06002DE1ED /* converse_obj.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = converse_obj.obj; sourceTree = "<group>"; };
+		E4E16CDA27DCEC06002DE1ED /* laces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laces.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E16CC127DCD789002DE1ED /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,37 @@
 		E4E16CA927DCD6D0002DE1ED /* SceneKitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				E4E16CD527DCEBD6002DE1ED /* Converse_obj */,
+				E4E16CCE27DCE3E6002DE1ED /* leaderMask */,
 				E4E16CAA27DCD6D0002DE1ED /* AppDelegate.swift */,
 				E4E16CAC27DCD6D0002DE1ED /* SceneDelegate.swift */,
 				E4E16CAE27DCD6D0002DE1ED /* ViewController.swift */,
-				E4E16CB027DCD6D0002DE1ED /* Main.storyboard */,
 				E4E16CB327DCD6D1002DE1ED /* Assets.xcassets */,
 				E4E16CB527DCD6D1002DE1ED /* LaunchScreen.storyboard */,
 				E4E16CB827DCD6D1002DE1ED /* Info.plist */,
 			);
 			path = SceneKitPractice;
+			sourceTree = "<group>";
+		};
+		E4E16CCE27DCE3E6002DE1ED /* leaderMask */ = {
+			isa = PBXGroup;
+			children = (
+				E4E16CD027DCE3F4002DE1ED /* Squid_Games_Leader_mask.mtl */,
+				E4E16CCF27DCE3F3002DE1ED /* Squid_Games_Leader_mask.obj */,
+			);
+			path = leaderMask;
+			sourceTree = "<group>";
+		};
+		E4E16CD527DCEBD6002DE1ED /* Converse_obj */ = {
+			isa = PBXGroup;
+			children = (
+				E4E16CD727DCEC06002DE1ED /* converse_bump.jpg */,
+				E4E16CD827DCEC06002DE1ED /* converse_obj.mtl */,
+				E4E16CD927DCEC06002DE1ED /* converse_obj.obj */,
+				E4E16CD627DCEC06002DE1ED /* converse.jpg */,
+				E4E16CDA27DCEC06002DE1ED /* laces.jpg */,
+			);
+			path = Converse_obj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +119,9 @@
 			dependencies = (
 			);
 			name = SceneKitPractice;
+			packageProductDependencies = (
+				E4E16CC027DCD789002DE1ED /* SnapKit */,
+			);
 			productName = SceneKitPractice;
 			productReference = E4E16CA727DCD6D0002DE1ED /* SceneKitPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +150,9 @@
 				Base,
 			);
 			mainGroup = E4E16C9E27DCD6D0002DE1ED;
+			packageReferences = (
+				E4E16CBF27DCD789002DE1ED /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E4E16CA827DCD6D0002DE1ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +167,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E16CDE27DCEC06002DE1ED /* converse_obj.obj in Resources */,
+				E4E16CDC27DCEC06002DE1ED /* converse_bump.jpg in Resources */,
+				E4E16CDF27DCEC06002DE1ED /* laces.jpg in Resources */,
 				E4E16CB727DCD6D1002DE1ED /* LaunchScreen.storyboard in Resources */,
+				E4E16CDB27DCEC06002DE1ED /* converse.jpg in Resources */,
 				E4E16CB427DCD6D1002DE1ED /* Assets.xcassets in Resources */,
-				E4E16CB227DCD6D0002DE1ED /* Main.storyboard in Resources */,
+				E4E16CD127DCE3F4002DE1ED /* Squid_Games_Leader_mask.obj in Resources */,
+				E4E16CD227DCE3F4002DE1ED /* Squid_Games_Leader_mask.mtl in Resources */,
+				E4E16CDD27DCEC06002DE1ED /* converse_obj.mtl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4E16CB027DCD6D0002DE1ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4E16CB127DCD6D0002DE1ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4E16CB527DCD6D1002DE1ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +334,6 @@
 				INFOPLIST_FILE = SceneKitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +361,6 @@
 				INFOPLIST_FILE = SceneKitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4E16CBF27DCD789002DE1ED /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4E16CC027DCD789002DE1ED /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4E16CBF27DCD789002DE1ED /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4E16C9F27DCD6D0002DE1ED /* Project object */;
 }
